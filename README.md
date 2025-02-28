@@ -1,2 +1,2 @@
 # Learning_python
-This is my programs, while learning from "Python Crash Course"
+I am learning Python from the book "Python Crash Course" and these are the programs, I create along the way.
