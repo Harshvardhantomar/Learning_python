@@ -1,0 +1,13 @@
+travel_destinations = ["Los Angeles","London","Bali","Dubai","Chicago"]
+print(travel_destinations,"\n")
+print(sorted(travel_destinations),"\n")
+print(travel_destinations,"\n")
+print(sorted(travel_destinations,reverse=True),"\n")
+travel_destinations.reverse()
+print(travel_destinations,"\n")
+travel_destinations.reverse()
+print(travel_destinations,"\n")
+travel_destinations.sort()
+print(travel_destinations,"\n")
+travel_destinations.sort(reverse=True)
+print(travel_destinations,"\n")
