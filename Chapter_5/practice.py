@@ -1,15 +1,9 @@
-a = ["he","Ho"]
+def show_messages(*messages):
+    for message in messages:
+        print(message)
 
-b = ("he","ho")
 
-# print(a.sort())
-# print(b.sort())
+messag =['Hey','how','are','you','doing']
 
-# print(a.reverse())
-# print(b.reverse())
-
-# print(a.append("a"))
-# print(b.append("a"))
-
-print(a.pop())
-print(b.pop())
+show_messages(messag)
+show_messages('Hey')
