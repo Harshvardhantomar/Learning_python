@@ -1,9 +1,11 @@
-def show_messages(*messages):
-    for message in messages:
-        print(message)
+from pathlib import Path
+path = Path('Chapter_5/pi_digits.txt')
+contents = path.read_text()
 
+lines = contents.splitlines()
 
-messag =['Hey','how','are','you','doing']
-
-show_messages(messag)
-show_messages('Hey')
+pi_count = ''
+for line in lines:
+    pi_count += line.lstrip()
+print(pi_count)
+print(len(pi_count))
