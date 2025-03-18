@@ -4,8 +4,5 @@ content = path.read_text()
 
 file = []
 for line in content.splitlines():
-    print(line.strip())
-
-for line in content.splitlines():
-    file.append((line.strip()).removesuffix('.'))
-print(file)
+    a = line.strip()
+    print(a.replace('python','C++'))
