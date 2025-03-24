@@ -1,11 +1,10 @@
 from pathlib import Path
-path = Path('Chapter_5/pi_digits.txt')
-contents = path.read_text()
+import json
 
-lines = contents.splitlines()
 
-pi_count = ''
-for line in lines:
-    pi_count += line.lstrip()
-print(pi_count)
-print(len(pi_count))
+path = Path('Numbers.json')
+content = path.read_text()
+number = json.loads(content)
+
+print(content,number)
+
